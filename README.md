@@ -27,7 +27,7 @@ Open your cloned repositoy in a text editor to review the HTML, CSS, Google Maps
 * [jQuery](http://api.jquery.com/) - The Javascript library used.
 * [Apixu](https://www.apixu.com/api.aspx) - Weather API used.
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/) - Map API used.
-* [Geobytes](http://geobytes.com/free-ajax-cities-jsonp-api/) - AJAX AUTOCOMPLETE LIST CITIES JSON-P API used.
+* [Geobytes](http://geobytes.com/free-ajax-cities-jsonp-api/) - AJAX autocomplete list cities JSON-P API used.
 * [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/) - CSS framework used.
 * [JS Info Bubble](https://github.com/googlemaps/js-info-bubble) - Google Maps infoWindow framework used.
 * [Firebase](https://firebase.google.com/docs/) - database used.
