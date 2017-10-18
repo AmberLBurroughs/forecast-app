@@ -1,0 +1,201 @@
+
+    
+    html, body {
+        height: 100%;
+        font-size: 18px;
+
+    }
+    body {
+     overflow-x: hidden;
+     background-color: #17263c;
+     /*#928f88;s*/
+     /*#96817c;*/
+     font-family: 'Amatic SC', cursive;
+     color: #fff;
+     text-align: center;
+    }
+
+
+
+    .content-container {
+      height: 100%;
+    }
+
+     #map {
+      height: 70%;
+      margin: 0 auto;
+      width: 95%;
+    }
+      /* Optional: Makes the sample page fill the window. */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .viewers-container {
+      color: #fff;
+    }
+    .viewers-container span {
+      font-family: 'Amatic SC', cursive;
+      font-size: 2em;
+    }
+    .viewers-container img {
+      width: 50px;
+      margin-right: 10px;
+      margin-top: -20px;
+    }
+  #header {
+      /*"https://i.pinimg.com/564x/58/48/91/584891a50c64d10d9809dc9c64e92927.jpg"*/
+      
+      /*https://i.pinimg.com/564x/86/ef/f2/86eff22912f56ff967393d608bdc6a16.jpg*/
+      /*https://i.pinimg.com/564x/09/ac/d4/09acd4dabd1d6f99c257f2dea28f71a5.jpg*/
+    background: url(../images/bkg.jpg) center center no-repeat;
+    background-size: cover;
+    height: 2200px;
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    }
+    #header h1 span sup{
+      font-size: .8em;
+    }
+    #header p {
+      margin-top: 26px;
+      margin-bottom: 0px;
+    }
+    #header img:last-of-type {
+      cursor: pointer;
+    }
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Wire One', sans-serif; -
+font-family: 'Amatic SC', cursive; - 
+*/
+    h1, h3 {
+      font-weight: 300;
+      font-family: 'Amatic SC', cursive;
+    }
+    h1 {
+      font-size: 4em;
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: 2em;
+    }
+
+    #main {
+      min-height: 200px;
+      margin-bottom: 12%;
+    }
+    #hometown-form {
+      margin: 0 20%;
+    }
+
+    #downArrow {
+      height: 60px;
+    }
+    .form-control {
+      background-color: transparent;
+      border:1px solid #fff;
+      font-size: 18px;
+    }
+    .form-control:focus {
+      border:1px solid #fff;
+      box-shadow: none;
+      outline: none;
+    }
+    #map-control {
+      text-align: center;
+    }
+    #zoomOut {
+      font-weight: 300;
+      border: none;
+      background-color: transparent;
+      font-family: 'Amatic SC', cursive;
+      color: #fff;
+      font-size: 1.5em;
+    }
+    #zoomOut:focus {
+      outline: none;
+    }
+    .gm-style {
+      background-color: #17263c;
+    }
+    .iw-container {
+        /*background: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgb(112,112,112)),color-stop(0.51, rgb(94,94,94)),color-stop(0.52, rgb(57,57,57)));
+        background: -moz-linear-gradient(center top,rgb(112,112,112) 0%,rgb(94,94,94) 51%,rgb(57,57,57) 52%);*/
+        font-family: 'Amatic SC', cursive;
+        font-size: 18px;
+        color:#fff;
+      }
+      .iw-icon {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .images {
+        width: 100%;
+      }
+      .iw-time {
+        margin-top: 20px;
+        font-size: 28px;
+      }
+      .wind-wrap {
+        width:40%;
+        float:left;
+        margin-top: 30px;
+      }
+      .wind-wrap p {
+        display: inline-block;
+      }
+      .temp-wrap {
+        width:60%;
+        float:left;
+        text-align: right;
+        padding-right: 10px;
+      }
+      .iw-currentTemp  {
+        font-size: 50px;
+      }
+      .iw-currentWind{
+        padding-left: 5px;
+      }
+      .time-wrap {
+        text-align: center;
+      }
+      .place-wrap{
+        padding-top: 5px;
+        clear:both;
+        border-top: 1px solid #fff;
+        text-align: center;
+      }
+      .hide {
+        display: none;
+      }
+      #stats-container {
+        margin-bottom: 5%;
+      }
+      
+    @media only screen and (max-width: 40em) {
+       #header {
+            /*"https://i.pinimg.com/564x/58/48/91/584891a50c64d10d9809dc9c64e92927.jpg"*/
+            
+            /*https://i.pinimg.com/564x/86/ef/f2/86eff22912f56ff967393d608bdc6a16.jpg*/
+            /*https://i.pinimg.com/564x/09/ac/d4/09acd4dabd1d6f99c257f2dea28f71a5.jpg*/
+          background: url(../images/bkg1.jpg) center top no-repeat;
+          background-size: cover;
+          height: 875px;
+          padding-top: 1%;
+     }
+     h1 {
+      font-size: 2em;
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: 1em;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+        min-height: 397px;
+        overflow: hidden;
+        }
+   }
